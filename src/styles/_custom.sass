@@ -2,17 +2,89 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 45%
+    right: 10%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateX(20px)
   100%
-    transform: translateY(0px)
+    transform: translateX(0px)
+
+// tarjetas
+.tarjeta.color1
+  background-color: #FFF8E7
+.tarjeta.color2
+  background-color: #EBD0EA
+.tarjeta-avatar-b__img
+    min-width: 13%;
+    max-width: 13%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+//pestañas TabsA
+.tabs-a__tab
+  background-color: #DEDDE8
+
+//.tarjetas
+.tarjeta.tarjeta1
+  background-color: #E1D6CB
+.tarjeta.tarjeta2
+  background-color: #EDE6E0
+.tarjeta.tarjeta3
+  background-color: #FFF8E7
+
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+// Fondos
+
+.BGIMG01
+  background-image: url("../assets/curso/temas/fondo1.svg")
+  background-size: 115% 
+  background-repeat: no-repeat
+  background-position: center
+.BGIMG02
+  background-image: url("../assets/curso/temas/fondo2.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+// comillas cajaon de texto
+
+.bloque-texto-f__comillas i
+  color: #B4997F
+
+// titulo
+
+.titulo
+  background-color: #ABDBFF
+  color: black
+  padding: 2px 20px
+  border-radius: 50px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+
+.titulo img
+  width: 23px
+  height: auto
+  margin-right: 10px
+
+
