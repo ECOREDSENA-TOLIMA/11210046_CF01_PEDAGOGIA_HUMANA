@@ -65,7 +65,7 @@
             .col-lg-6.col-12.mb-3
               p Las estrategias pedagógicas actuales se ajustan dinámicamente a las demandas cambiantes de la educación contemporánea, integrando avances tecnológicos, enfoques innovadores y un profundo compromiso con la diversidad y la inclusión educativa. Están diseñadas para fortalecer no solo el conocimiento académico, sino también las habilidades críticas y el desarrollo integral de los estudiantes en un mundo globalizado y tecnológicamente avanzado.
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Los estilos de aprendizaje
     
     p.mb-4(data-aos="fade-left") Cada individuo posee características únicas de personalidad, inteligencia, comportamiento y atención, lo cual influye significativamente en la manera en que adquiere conocimientos. Por lo tanto, es crucial que los docentes y formadores identifiquen cómo aprenden mejor sus estudiantes para optimizar el proceso educativo.
@@ -112,7 +112,7 @@
           img(src='@/assets/curso/temas/tema2/8.svg', alt='Imagen decorativa')
     
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 El modelo VAK
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")

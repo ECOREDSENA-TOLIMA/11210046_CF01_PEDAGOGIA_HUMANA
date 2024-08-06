@@ -15,7 +15,7 @@
           p(data-aos="fade-left") Explorar los orígenes de la pedagogía y los contextos espaciales, culturales, sociales y políticos constituye un punto importante para establecer una relación entre los métodos y la realidad que rodea a la educación. Por ello, un enfoque de la enseñanza como una función especializada del ser y del saber se comprende mejor a través del pensamiento y la práctica de los educadores que buscan acompañar a los estudiantes en su proceso de aprendizaje a lo largo de la vida. A continuación, se observan las características específicas de cada escuela pedagógica y los problemas que enfrenta el desarrollo del pensamiento pedagógico:
 
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Pedagogía en la Edad Antigua  
     
     p.mb-4(data-aos="fade-left") La humanidad considera como antiguas las civilizaciones que dieron vida al mundo que hoy se conoce. Se ha determinado que los continentes más antiguos son Asia, África y Europa, dentro de los cuales existieron varias civilizaciones que no solo fueron la cuna del conocimiento, sino también de muchas instituciones actuales. Las civilizaciones a las que la historia les ha dado más trascendencia son la china, egipcia, india, romana y griega.
@@ -44,7 +44,7 @@
     p.mb-4(data-aos="fade-left") Otro de los imperios antiguos que hizo profundos aportes a la educación fue el Imperio Romano. Aunque muchos de sus grandes pensadores viajaban a estudiar a Grecia, también es cierto que grandes teóricos de la época eran producto de su propio sistema pedagógico. Prueba de ello es que las obras escritas por los romanos aún subsisten y dieron grandes aportes a ciencias como la política, el derecho, la filosofía, la sociología y la física.
 
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Educación en la Edad Media
     p.mb-4(data-aos="fade-left") Una de las características principales de la Edad Media es la influencia del cristianismo en todos los países de Europa. Debido a esto, en los procesos de colonización, esta forma de ver el mundo se impone a las comunidades conquistadas. Carlo Magno es uno de los máximos impulsores de la educación en este tiempo, fomentando la creación de escuelas no solo para las élites sociales, sino también para el pueblo. El logro más importante es el nacimiento de las primeras universidades, como la Universidad de Bolonia, la Universidad de París y la Universidad de Oxford, que sentaron las bases del sistema universitario moderno.
 
@@ -75,7 +75,7 @@
               p Aunque la educación de las mujeres fue limitada, se les enseñaba en conventos, y algunas mujeres excepcionales lograron destacarse en el ámbito intelectual.
 
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Educación en la Edad Contemporánea
     p(data-aos="fade-left") Superados los hechos históricos de conquista, colonización, fe y religión, las sociedades de los siglos XIX y XX se vieron permeadas por una serie de revoluciones demográficas, sociales, culturales, económicas y educativas. En este contexto global surgieron numerosos investigadores, maestros y pedagogos que, a través de diferentes medios, disciplinas y métodos, realizaron importantes contribuciones a la historia de la pedagogía.
 
@@ -174,7 +174,7 @@
     p.mb-4(data-aos="fade-left") Estas corrientes marcaron un cambio significativo en la forma en que se comprende y se practica la educación en la era contemporánea, influyendo profundamente en los métodos y enfoques educativos utilizados hasta hoy.
             
     separador
-    .titulo-segundo.color-acento-contenido
+    #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Pedagogía de hoy
 
     .row.justify-content-center
