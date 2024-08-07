@@ -141,6 +141,9 @@
     
     p.mb-4(data-aos="fade-left") A lo largo de la historia, diversos pedagogos y psicólogos han desarrollado teorías y modelos educativos que han influido profundamente en la práctica de la enseñanza y el aprendizaje. Cada uno de estos autores ha aportado enfoques únicos y valiosos, centrados en diferentes aspectos del proceso educativo. A continuación, se presentan algunos de los principales autores y las características de sus modelos pedagógicos:
 
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 1.
+      span <i>Teorías de diferentes autores.</i>
     .tabla-a.clstabla.color-acento-contenido.mb-5 
       table
         thead

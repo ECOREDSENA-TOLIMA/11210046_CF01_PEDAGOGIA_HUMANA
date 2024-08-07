@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") A continuación, se describe una visión general sobre los aspectos clave de la pedagogía y la planeación formativa. Comienza con la evolución histórica de la pedagogía, desde la Edad Antigua hasta la contemporaneidad. Incluye estrategias pedagógicas, como los estilos de aprendizaje y el modelo VAK, así como diversos modelos pedagógicos y sus características. Además, se exploran los componentes de la pedagogía y la didáctica, y su relación con la docencia. También se presenta la inducción al plan de formación y el plan de formación, con sus respectivos componentes y procedimientos. Finalmente, se aborda la administración educativa, destacando la planeación educativa y la normativa legal, incluyendo legislaciones específicas.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
