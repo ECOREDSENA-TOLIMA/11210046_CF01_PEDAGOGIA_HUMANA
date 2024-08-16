@@ -46,46 +46,46 @@
 
     .tarjeta.tarjeta--gris1.p-4.mb-5
       SlyderA(tipo="b")
-        .row
-          .col-md-7.mb-4.mb-md-0.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-lg-1.order-2
             h4.mb-5 Compromiso y liderazgo
-            p La administración educativa requiere individuos comprometidos y con capacidad de liderazgo para gestionar eficazmente las instituciones educativas. Estos líderes son responsables de implementar y supervisar políticas educativas, así como de garantizar un entorno de aprendizaje positivo y productivo.
+            p.mb-0 La administración educativa requiere individuos comprometidos y con capacidad de liderazgo para gestionar eficazmente las instituciones educativas. Estos líderes son responsables de implementar y supervisar políticas educativas, así como de garantizar un entorno de aprendizaje positivo y productivo.
         
-          .col-md-5.mb-3
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema5/4.png', alt='Imagen decorativa')
 
-        .row
-          .col-md-7.mb-4.mb-md-0.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-lg-1.order-2
             h4.mb-5 Manejo de la actualidad política
-            p La administración educativa implica un entendimiento profundo y manejo adecuado de la actualidad política. Esto incluye estar al tanto de las políticas gubernamentales, las leyes y los reglamentos que afectan el sistema educativo, y asegurarse de que la institución cumpla con todas las normativas vigentes.
+            p.mb-0 La administración educativa implica un entendimiento profundo y manejo adecuado de la actualidad política. Esto incluye estar al tanto de las políticas gubernamentales, las leyes y los reglamentos que afectan el sistema educativo, y asegurarse de que la institución cumpla con todas las normativas vigentes.
         
-          .col-md-5.mb-3
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema5/5.png', alt='Imagen decorativa')
 
-        .row
-          .col-md-7.mb-4.mb-md-0.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-lg-1.order-2
             h4.mb-5 Críticas constructivas a paradigmas tradicionales
-            p Es esencial que los administradores educativos no solo sigan los paradigmas tradicionales, sino que también sean capaces de criticarlos constructivamente. Esto implica cuestionar métodos antiguos y buscar formas de mejorarlos o reemplazarlos con prácticas más efectivas.
+            p.mb-0 Es esencial que los administradores educativos no solo sigan los paradigmas tradicionales, sino que también sean capaces de criticarlos constructivamente. Esto implica cuestionar métodos antiguos y buscar formas de mejorarlos o reemplazarlos con prácticas más efectivas.
         
-          .col-md-5.mb-3
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema5/6.png', alt='Imagen decorativa')
-        .row
-          .col-md-7.mb-4.mb-md-0.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-lg-1.order-2
             h4.mb-5 Impulso de procesos emergentes
-            p La administración educativa debe fomentar la investigación y la solución de problemas a nivel académico y social. Esto incluye la promoción de metodologías innovadoras, la implementación de nuevas tecnologías y la adopción de prácticas pedagógicas avanzadas.
+            p.mb-0 La administración educativa debe fomentar la investigación y la solución de problemas a nivel académico y social. Esto incluye la promoción de metodologías innovadoras, la implementación de nuevas tecnologías y la adopción de prácticas pedagógicas avanzadas.
         
-          .col-md-5.mb-3
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema5/7.png', alt='Imagen decorativa')
-        .row
-          .col-md-7.mb-4.mb-md-0.p-4.mb-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6.order-lg-1.order-2
             h4.mb-5 Solución de problemas académicos y sociales
-            p Los administradores educativos deben ser proactivos en la identificación y solución de problemas tanto académicos como sociales. Esto puede incluir desde mejorar el rendimiento académico y la retención de estudiantes hasta abordar problemas sociales como la inclusión, la equidad y la justicia social dentro del entorno educativo.
+            p.mb-0 Los administradores educativos deben ser proactivos en la identificación y solución de problemas tanto académicos como sociales. Esto puede incluir desde mejorar el rendimiento académico y la retención de estudiantes hasta abordar problemas sociales como la inclusión, la equidad y la justicia social dentro del entorno educativo.
         
-          .col-md-5.mb-3
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema5/8.png', alt='Imagen decorativa')
 
@@ -107,10 +107,19 @@
             img(src='@/assets/curso/temas/tema5/9.svg', alt='Imagen decorativa')
       .row(numero="b" titulo="Gestión directiva")
         .col-md-12.mb-4.mb-md-0
-          li.mb-4 Direccionamiento estratégico: su función es la de exponer el portafolio institucional constituido por la misión, visión y los objetivos institucionales. El conocimiento acerca de los procesos de direccionamiento y las políticas de inclusión resulta definitivo si se quiere lograr que perdure la institución a través del tiempo, ya que existe un gran segmento de la población que posee necesidades educativas especiales. 
-          li.mb-4 Gerencia estratégica: constituida por el estilo de liderazgo institucional, la articulación con planes y programas de índole local, regional y nacional de educación.
-          li.mb-4 Estrategia pedagógica: describe los métodos educativos que seguirá toda la institución, los cuales se encuentran en relación con los currículos que la institución imparta además del uso de la información interna y externa en las decisiones que toma la institución.
-          li Autoevaluación institucional: toda institución debe revisar su nivel de desempeño en el medio. Por eso, constantemente se realizan encuestas, investigaciones y mediciones que permiten mantener los niveles de calidad y pertinencia de los actores educativos.
+          ul.lista-ul
+            li.mb-4(style="margin-bottom: 2px") 
+              i.fas.fa-circle(style="font-size: 0.5em")
+              | Direccionamiento estratégico: su función es la de exponer el portafolio institucional constituido por la misión, visión y los objetivos institucionales. El conocimiento acerca de los procesos de direccionamiento y las políticas de inclusión resulta definitivo si se quiere lograr que perdure la institución a través del tiempo, ya que existe un gran segmento de la población que posee necesidades educativas especiales. 
+            li.mb-4(style="margin-bottom: 2px") 
+              i.fas.fa-circle(style="font-size: 0.5em")
+              | Gerencia estratégica: constituida por el estilo de liderazgo institucional, la articulación con planes y programas de índole local, regional y nacional de educación.
+            li.mb-4(style="margin-bottom: 2px") 
+              i.fas.fa-circle(style="font-size: 0.5em")
+              | Estrategia pedagógica: describe los métodos educativos que seguirá toda la institución, los cuales se encuentran en relación con los currículos que la institución imparta además del uso de la información interna y externa en las decisiones que toma la institución.
+            li.mb-0(style="margin-bottom: 2px") 
+              i.fas.fa-circle(style="font-size: 0.5em")
+              | Autoevaluación institucional: toda institución debe revisar su nivel de desempeño en el medio. Por eso, constantemente se realizan encuestas, investigaciones y mediciones que permiten mantener los niveles de calidad y pertinencia de los actores educativos.
 
       .row(numero="c" titulo="Gobierno escolar")
         .col-md-12.mb-4.mb-md-0

@@ -16,7 +16,7 @@
             i.fas.fa-quote-right
           .bloque-texto-f__autor.mb-3.p-4
             h4.mb-4 Según Martínez (2012)
-            h5.text-regular.bloque-texto-f__texto se trata de la capacidad para organizar, dirigir y gestionar recursos de manera que se optimice el proceso de enseñanza-aprendizaje. La administración debe adaptarse a las necesidades cambiantes de los alumnos y a las exigencias del entorno social y educativo.
+            h5.text-regular.bloque-texto-f__texto Se trata de la capacidad para organizar, dirigir y gestionar recursos de manera que se optimice el proceso de enseñanza-aprendizaje. La administración debe adaptarse a las necesidades cambiantes de los alumnos y a las exigencias del entorno social y educativo.
         
     p.mb-4(data-aos="fade-left") De acuerdo con Kaufman (2004), citado en Martínez (2012), las etapas de la administración educativa se describen de la siguiente manera:
 
@@ -104,7 +104,7 @@
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-primario.p-5
           .row.justify-content-center.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema7/13.svg', alt='Imagen decorativa')
             
@@ -113,7 +113,7 @@
 
         .col-md.tarjeta.color-secundario.p-5
           .row.justify-content-center.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema7/14.svg', alt='Imagen decorativa')
             

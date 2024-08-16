@@ -15,7 +15,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/1.png', alt='Imagen decorativa')
           .col-lg-6.col-12.mb-3
-            .cajon.color-secundario.p-4.mb-2(style="background-color: #FFF8E7")(data-aos="flip-up")
+            .cajon.color-secundario.p-4.mb-4(style="background-color: #FFF8E7")(data-aos="flip-up")
               p La Universidad Camilo José Cela, en la Enciclopedia de Pedagogía V. 5 (2002), amplía esta definición al describir las estrategias de aprendizaje como reglas que guían las decisiones oportunas para optimizar el proceso educativo. Estas estrategias son propositivas e intencionales, implicando operaciones mentales como selección, organización, transferencia y planificación.
             p En el contexto pedagógico contemporáneo, una estrategia pedagógica se concibe como un conjunto ordenado y coherente de acciones diseñadas para alcanzar objetivos educativos específicos (Picardo, Balmore y Escobar, 2004, citado en Aguirre et al., 2012). Esto incluye métodos planificados y actividades que no solo facilitan el aprendizaje profesional, sino que también promueven el crecimiento personal del estudiante.
     
@@ -88,26 +88,26 @@
         .row.justify-content-center
           .col-12.mb-0
             .tarjeta-avatar-b.mb-1(data-aos="flip-up")
-              .tarjeta-avatar-b__img
+              .tarjeta-avatar-b__img(style="max-width: 600px")
                 img(src='@/assets/curso/temas/tema2/9.svg' alt='AvatarTop')
               .tarjeta.tarjeta2
                 .p-4
                   p La diversidad cultural, lingüística y las diferencias individuales también juegan un papel crucial en los estilos de aprendizaje. Los educadores deben adaptar sus metodologías y estrategias pedagógicas para atender estas variadas formas de aprender, asegurando así un aprendizaje inclusivo y efectivo para todos los estudiantes.
           .col-12.mb-0
             .tarjeta-avatar-b.mb-1(data-aos="flip-up")
-              .tarjeta-avatar-b__img
+              .tarjeta-avatar-b__img(style="max-width: 600px")
                 img(src='@/assets/curso/temas/tema2/10.svg' alt='AvatarTop')
               .tarjeta.tarjeta3
                 .p-4
                   p La tecnología ha revolucionado la identificación y el apoyo a los estilos de aprendizaje, proporcionando herramientas y plataformas que permiten personalizar la enseñanza según las necesidades individuales. Desde aplicaciones de inteligencia artificial hasta recursos digitales adaptativos, estas tecnologías ayudan a los educadores a diseñar experiencias de aprendizaje más flexibles y accesibles.
           .col-12.mb-0
             .tarjeta-avatar-b.mb-1(data-aos="flip-up")
-              .tarjeta-avatar-b__img
+              .tarjeta-avatar-b__img(style="max-width: 600px")
                 img(src='@/assets/curso/temas/tema2/11.svg' alt='AvatarTop')
               .tarjeta.tarjeta2
                 .p-4
                   p En el aula, los educadores pueden implementar estrategias diferenciadas basadas en los estilos de aprendizaje para maximizar la participación y el rendimiento de los estudiantes. Por ejemplo, utilizando métodos visuales para estudiantes visuales-espaciales, o fomentando la colaboración y la discusión para estudiantes auditivos-verbales.
-      .col-lg-3.col-6.mb-3
+      .col-lg-3.col-6.mb-3.d-lg-flex.d-none
         figure
           img(src='@/assets/curso/temas/tema2/8.svg', alt='Imagen decorativa')
     
@@ -126,90 +126,152 @@
     TabsC.color-acento-botones.mb-5
       .py-3.py-md-4(titulo="Visual")
         .row
-          .col-md-6
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema2/13.png', alt='Imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            li.mb-3 Este sistema de representación se activa cuando se recuerdan imágenes, letras y números. Las personas visuales aprenden mejor a través de la lectura, la observación de diagramas, gráficos y dibujos.
-            li.mb-3 Acciones como leer, construir imágenes mentales, elaborar dibujos o diagramas facilitan este tipo de aprendizaje.
-            li.mb-3 La capacidad de abstracción y la planificación están estrechamente relacionadas con la capacidad de visualizar, ya que permite a las personas organizar y conceptualizar la información de manera efectiva.
+            ul.lista-ul
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Este sistema de representación se activa cuando se recuerdan imágenes, letras y números. Las personas visuales aprenden mejor a través de la lectura, la observación de diagramas, gráficos y dibujos.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Acciones como leer, construir imágenes mentales, elaborar dibujos o diagramas facilitan este tipo de aprendizaje.
+              li(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | La capacidad de abstracción y la planificación están estrechamente relacionadas con la capacidad de visualizar, ya que permite a las personas organizar y conceptualizar la información de manera efectiva.
         
           
       .py-3.py-md-4(titulo="Auditivo")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/14.png', alt='Imagen decorativa')
-          .col-md-6
-            li.mb-3 El sistema de representación auditivo se utiliza al oír voces, sonidos y música. Las personas con preferencia auditiva recuerdan melodías, conversaciones y pueden reconocer fácilmente las voces.
-            li.mb-3 Este canal está relacionado con el sentido del oído y es especialmente útil para el aprendizaje de idiomas, la memorización de discursos y la comprensión auditiva.
-            li.mb-3 Estrategias como escuchar grabaciones, participar en discusiones y leer en voz alta pueden ser muy efectivas para estos estudiantes.
+          .col-md-6.mb-4.mb-md-0
+            ul.lista-ul
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | El sistema de representación auditivo se utiliza al oír voces, sonidos y música. Las personas con preferencia auditiva recuerdan melodías, conversaciones y pueden reconocer fácilmente las voces.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Este canal está relacionado con el sentido del oído y es especialmente útil para el aprendizaje de idiomas, la memorización de discursos y la comprensión auditiva.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Estrategias como escuchar grabaciones, participar en discusiones y leer en voz alta pueden ser muy efectivas para estos estudiantes.
+            
 
       .py-3.py-md-4(titulo="Kinestésico")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/15.png', alt='Imagen decorativa')
-          .col-md-6
-            li.mb-3 Este sistema de representación se utiliza al percibir sensaciones y movimientos corporales. Está relacionado con las emociones y los sentidos del tacto, olfato y gusto.
-            li.mb-3 Las personas kinestésicas aprenden mejor a través de la experiencia directa y la manipulación física de los objetos.
-            li.mb-3 Procesar la información mediante la conexión con sensaciones y movimientos puede llevar a un aprendizaje más profundo, aunque puede requerir más tiempo.
-            li Actividades como el aprendizaje práctico, la dramatización y el uso de materiales táctiles pueden ser muy beneficiosas para estos estudiantes.
+          .col-md-6.mb-4.mb-md-0
+            ul.lista-ul
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Este sistema de representación se utiliza al percibir sensaciones y movimientos corporales. Está relacionado con las emociones y los sentidos del tacto, olfato y gusto.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Las personas kinestésicas aprenden mejor a través de la experiencia directa y la manipulación física de los objetos.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Procesar la información mediante la conexión con sensaciones y movimientos puede llevar a un aprendizaje más profundo, aunque puede requerir más tiempo.
+              li.mb-3(style="margin-bottom: 2px") 
+                i.fas.fa-circle(style="font-size: 0.5em")
+                | Actividades como el aprendizaje práctico, la dramatización y el uso de materiales táctiles pueden ser muy beneficiosas para estos estudiantes.
+    
     .titulo.mb-4
       img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
       h5.mb-0 Aplicaciones del Modelo VAK en el Aula
 
-    .row
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Visual
-              p Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.svg')})`}")
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Auditivo
-              p Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.svg')})`}")
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Kinestésico
-              p Incluir actividades prácticas, experimentos, dramatizaciones y uso de materiales manipulativos. Fomentar el movimiento y la interacción física durante las actividades de aprendizaje.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/18.svg')})`}")
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema2/16.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-4.mb-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Visual
+            p.text-white.text-center.mb-0 Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
 
-    .col.movil
-      .row.mb-5.justify-content-center
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-4
-              .tarjeta-slide__contenido.p-xl-5.p-2
-                h5 Visual
-                p Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.png')})`}")
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-4
-              .tarjeta-slide__contenido.p-3.p-xl-5
-                h5 Auditivo
-                p Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.png')})`}")
-        .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-4
-              .tarjeta-slide__contenido.p-2.p-xl-5
-                h5 Kinestésico
-                p Incluir actividades prácticas, experimentos, dramatizaciones y uso de materiales manipulativos. Fomentar el movimiento y la interacción física durante las actividades de aprendizaje.
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema2/17.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-4.mb-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Auditivo
+            p.text-white.text-center.mb-0 Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
+
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema2/18.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-4.mb-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Kinestésico
+            p.text-white.text-center.mb-0 Incluir actividades prácticas, experimentos, dramatizaciones y uso de materiales manipulativos. Fomentar el movimiento y la interacción física durante las actividades de aprendizaje.
+
+    //- .row
+    //-   .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 Visual
+    //-           p Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.svg')})`}")
+    //-   .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 Auditivo
+    //-           p Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.svg')})`}")
+    //-   .col-sm-6.col-xl-4.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color2(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 Kinestésico
+    //-           p Incluir actividades prácticas, experimentos, dramatizaciones y uso de materiales manipulativos. Fomentar el movimiento y la interacción física durante las actividades de aprendizaje.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/18.svg')})`}")
+
+    //- .col.movil
+    //-   .row.mb-5.justify-content-center
+    //-     .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-4
+    //-           .tarjeta-slide__contenido.p-xl-5.p-2
+    //-             h5 Visual
+    //-             p Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.png')})`}")
+    //-     .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-4
+    //-           .tarjeta-slide__contenido.p-3.p-xl-5
+    //-             h5 Auditivo
+    //-             p Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.png')})`}")
+    //-     .col-sm-6.col-xl-3.mb-3.mb-xl-0.col-12
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-4
+    //-           .tarjeta-slide__contenido.p-2.p-xl-5
+    //-             h5 Kinestésico
+    //-             p Incluir actividades prácticas, experimentos, dramatizaciones y uso de materiales manipulativos. Fomentar el movimiento y la interacción física durante las actividades de aprendizaje.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/18.png')})`}")
 
     

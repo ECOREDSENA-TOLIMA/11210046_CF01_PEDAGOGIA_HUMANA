@@ -32,13 +32,10 @@
     .row.justify-content-center
       TabsA.color-acento-botones.mb-4(data-aos="flip-up")
         .tarjeta.color1.p-4(titulo="Sócrates")
-          h4 Sócrates
           p Su aporte a la pedagogía fue la Mayéutica, método que tenía por fin lograr que los estudiantes llegaran al conocimiento por medio de preguntas orientadoras y luego debatir las respuestas. A veces se confundió su método con la ironía, de ahí su muy popular frase: “Solo sé que nada sé”. 
         .tarjeta.color1.p-4(titulo="Platón")
-          h4 Platón
           p Fue discípulo de Sócrates y maestro de Aristóteles, fundador de la “Academia” en honor al héroe Academo, en la cual se reunía un grupo de jóvenes con su maestro para estudiar matemáticas, retórica, medicina y ciencias naturales. Le dio una singular importancia a la geometría, al punto de colocar en la entrada de la academia la siguiente frase: “Aquí no entra nadie que no sepa geometría”. Su método de enseñanza se basó en la Dialéctica o conversación sobre los diferentes temas.
         .tarjeta.color1.p-4(titulo="Aristóteles")
-          h4 Aristóteles
           p Discípulo de Platón y maestro de grandes héroes griegos, incluido Alejandro Magno, fue fundador del “Liceo”, escuela en la cual instruían a sus estudiantes mientras daban un paseo e iban mostrando y demostrando teoremas y conceptos. Entre los maestros que lo acompañaban están Teofrasto, Andrónico, Galeno y Ptolomeo. El principal objetivo del “Liceo” era formar a los futuros gobernantes y políticos; su enseñanza siempre se basó en el conocimiento empírico, partiendo de lo particular para llegar a lo general.
 
     p.mb-4(data-aos="fade-left") Otro de los imperios antiguos que hizo profundos aportes a la educación fue el Imperio Romano. Aunque muchos de sus grandes pensadores viajaban a estudiar a Grecia, también es cierto que grandes teóricos de la época eran producto de su propio sistema pedagógico. Prueba de ello es que las obras escritas por los romanos aún subsisten y dieron grandes aportes a ciencias como la política, el derecho, la filosofía, la sociología y la física.
@@ -51,7 +48,7 @@
     .row.justify-content-center
       .col-12.mb-4
         .tarjeta-avatar-b(data-aos="flip-up")
-          .tarjeta-avatar-b__img
+          .tarjeta-avatar-b__img(style="max-width: 600px")
             img(src='@/assets/curso/temas/tema1/2.svg' alt='AvatarTop')
           .tarjeta.tarjeta1
             .p-4
@@ -59,7 +56,7 @@
               p La información histórica referida a pedagogos de la época cita como ejes fundamentales del proceso educativo a personas del clero y monjes, principalmente de las comunidades Jesuitas, Franciscanas y Dominicanas. A este tipo de enseñanza, basada principalmente en la fe cristiana, se le conoce como Escolástica. Entre los principales representantes de la pedagogía de la Edad Media se encuentran Santo Tomás de Aquino (fundador de la escuela Tomística), San Agustín, Clemente de Alejandría, San Basilio y San Jerónimo, entre otros.
       .col-12.mb-4
         .tarjeta-avatar-b(data-aos="flip-up")
-          .tarjeta-avatar-b__img
+          .tarjeta-avatar-b__img(style="max-width: 600px")
             img(src='@/assets/curso/temas/tema1/3.svg' alt='AvatarTop')
           .tarjeta.tarjeta1
             .p-4
@@ -67,7 +64,7 @@
               p Además del predominio cristiano, la Edad Media también fue testigo de la influencia de la cultura árabe, especialmente en áreas como la matemática y la ciencia, a través de la traducción de textos antiguos. Los métodos educativos incluían el trivium (gramática, retórica y lógica) y el quadrivium (aritmética, geometría, música y astronomía), que formaban el currículo básico de la educación superior.
       .col-12.mb-4
         .tarjeta-avatar-b(data-aos="flip-up")
-          .tarjeta-avatar-b__img
+          .tarjeta-avatar-b__img(style="max-width: 600px")
             img(src='@/assets/curso/temas/tema1/4.svg' alt='AvatarTop')
           .tarjeta.tarjeta1
             .p-4
@@ -79,75 +76,125 @@
       h2 1.3 Educación en la Edad Contemporánea
     p(data-aos="fade-left") Superados los hechos históricos de conquista, colonización, fe y religión, las sociedades de los siglos XIX y XX se vieron permeadas por una serie de revoluciones demográficas, sociales, culturales, económicas y educativas. En este contexto global surgieron numerosos investigadores, maestros y pedagogos que, a través de diferentes medios, disciplinas y métodos, realizaron importantes contribuciones a la historia de la pedagogía.
 
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Pestalozzi
-              p Promovió el aprendizaje natural y enfatizó el rol del maestro como acompañante en el proceso de aprendizaje del alumno.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/5.png')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 María Montessori
-              p Impulsó la educación temprana basada en el humanismo integral, con maestros guías y el uso abundante de material didáctico, integrando todos los sentidos en el aprendizaje.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.png')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 John Eliot
-              p Dio un carácter ético a la pedagogía, enfocándose en la moralidad y los valores en la educación.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/7.png')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 John Dewey
-              p Orientó su enfoque pragmático hacia la educación, defendiendo la aplicación práctica de la teoría y la importancia de la experiencia como base del aprendizaje.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.png')})`}")
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/5.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Pestalozzi
+            p.text-white.text-center.mb-0 Promovió el aprendizaje natural y enfatizó el rol del maestro como acompañante en el proceso de aprendizaje del alumno.
 
-    .col.movil
-      .row.mb-5.justify-content-center
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-3
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-5
-              .tarjeta-slide__contenido.p-5.p-xl-5
-                h5 Pestalozzi
-                p Promovió el aprendizaje natural y enfatizó el rol del maestro como acompañante en el proceso de aprendizaje del alumno.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/5.png')})`}")
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-3
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-5
-              .tarjeta-slide__contenido.p-5.p-xl-5
-                h5 María Montessori
-                p Impulsó la educación temprana basada en el humanismo integral, con maestros guías y el uso abundante de material didáctico, integrando todos los sentidos en el aprendizaje.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.png')})`}")
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-4
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-5
-              .tarjeta-slide__contenido.p-5.p-xl-5
-                h5 John Eliot
-                p Dio un carácter ético a la pedagogía, enfocándose en la moralidad y los valores en la educación.
-                p
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/7.png')})`}")
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-3
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor.p-5
-              .tarjeta-slide__contenido.p-5.p-xl-5
-                h5 John Dewey
-                p Orientó su enfoque pragmático hacia la educación, defendiendo la aplicación práctica de la teoría y la importancia de la experiencia como base del aprendizaje.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.png')})`}")
+      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/6.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 María Montessori
+            p.text-white.text-center.mb-0 Impulsó la educación temprana basada en el humanismo integral, con maestros guías y el uso abundante de material didáctico, integrando todos los sentidos en el aprendizaje.
+
+      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/7.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 John Eliot
+            p.text-white.text-center.mb-0 Dio un carácter ético a la pedagogía, enfocándose en la moralidad y los valores en la educación.
+
+
+      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/8.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 John Dewey
+            p.text-white.text-center.mb-0 Orientó su enfoque pragmático hacia la educación, defendiendo la aplicación práctica de la teoría y la importancia de la experiencia como base del aprendizaje.
+
+    //- .row.mb-5
+    //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 Pestalozzi
+    //-           p Promovió el aprendizaje natural y enfatizó el rol del maestro como acompañante en el proceso de aprendizaje del alumno.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/5.png')})`}")
+    //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 María Montessori
+    //-           p Impulsó la educación temprana basada en el humanismo integral, con maestros guías y el uso abundante de material didáctico, integrando todos los sentidos en el aprendizaje.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.png')})`}")
+    //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 John Eliot
+    //-           p Dio un carácter ético a la pedagogía, enfocándose en la moralidad y los valores en la educación.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/7.png')})`}")
+    //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0.desktop
+    //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-       .tarjeta-slide__contenedor
+    //-         .tarjeta-slide__contenido.p-4.p-xl-5
+    //-           h5 John Dewey
+    //-           p Orientó su enfoque pragmático hacia la educación, defendiendo la aplicación práctica de la teoría y la importancia de la experiencia como base del aprendizaje.
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.png')})`}")
+
+    //- .col.movil
+    //-   .row.mb-5.justify-content-center
+    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-3
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-5
+    //-           .tarjeta-slide__contenido.p-5.p-xl-5
+    //-             h5 Pestalozzi
+    //-             p Promovió el aprendizaje natural y enfatizó el rol del maestro como acompañante en el proceso de aprendizaje del alumno.
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/5.png')})`}")
+    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-3
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-4
+    //-           .tarjeta-slide__contenido.p-5.p-xl-5
+    //-             h5 María Montessori
+    //-             p Impulsó la educación temprana basada en el humanismo integral, con maestros guías y el uso abundante de material didáctico, integrando todos los sentidos en el aprendizaje.
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/6.png')})`}")
+    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-4
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-5
+    //-           .tarjeta-slide__contenido.p-5.p-xl-5
+    //-             h5 John Eliot
+    //-             p Dio un carácter ético a la pedagogía, enfocándose en la moralidad y los valores en la educación.
+    //-             p
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/7.png')})`}")
+    //-     .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-12.p-4
+    //-       .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+    //-         .indicador--hover(v-if="indicadorTarjetaSlide")
+    //-         .tarjeta-slide__contenedor.p-4
+    //-           .tarjeta-slide__contenido.p-5.p-xl-5
+    //-             h5 John Dewey
+    //-             p Orientó su enfoque pragmático hacia la educación, defendiendo la aplicación práctica de la teoría y la importancia de la experiencia como base del aprendizaje.
+    //-           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/8.png')})`}")
 
     p.mb-5(data-aos="fade-left") En el siglo XX, surgieron teorías pedagógicas significativas como el conductismo y el constructivismo:
 
@@ -155,7 +202,7 @@
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-primario.p-5
           .row.justify-content-center.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema1/9.svg', alt='Imagen decorativa')
             
@@ -164,7 +211,7 @@
 
         .col-md.tarjeta.color-secundario.p-5
           .row.justify-content-center.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema1/10.svg', alt='Imagen decorativa')
             

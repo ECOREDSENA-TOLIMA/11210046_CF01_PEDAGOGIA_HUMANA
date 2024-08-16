@@ -9,59 +9,60 @@
     
     p.mb-4(data-aos="fade-left") Un modelo pedagógico es un conjunto de principios, estrategias y estándares cuya aplicación permite establecer reglas que orientan la formación, mejorando así el proceso de enseñanza-aprendizaje. La implementación efectiva de un modelo pedagógico requiere que los miembros de la institución educativa se planteen las siguientes preguntas fundamentales:
 
+    
     .tarjeta.p-4.tarjeta--gris1.px-4.px-md-5.pt-4.mb-5
       PasosB.color-acento-botones
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿Qué tipo de estudiantes, aprendices o trabajadores se quiere formar? 
-            p Esta pregunta busca definir el perfil de los egresados, considerando sus competencias, habilidades, valores y actitudes.
+            p.mb-0 Esta pregunta busca definir el perfil de los egresados, considerando sus competencias, habilidades, valores y actitudes.
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/1.png', alt='Imagen decorativa')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿A través de qué estrategias técnico-metodológicas?
             p Aquí se trata de identificar las metodologías y técnicas didácticas que se utilizarán para facilitar el aprendizaje, tales como el aprendizaje basado en proyectos, el uso de tecnologías educativas, o el aprendizaje colaborativo. 
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/2.png', alt='Imagen decorativa')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿Cuál es el currículo o los contenidos a orientar? 
             p Es fundamental determinar el contenido curricular que se impartirá, asegurando que sea relevante, actualizado y alineado con los objetivos educativos. 
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/3.png', alt='Imagen decorativa')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿Cuáles son las prácticas o experiencias que se le deben transmitir a los estudiantes?
             p Este aspecto se refiere a las experiencias prácticas, como prácticas profesionales, laboratorios, simulaciones y actividades extracurriculares, que complementan la formación teórica.
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/4.png', alt='Imagen decorativa')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿Cuáles deben ser los ritmos del proceso?
             p Es importante considerar la secuencia y ritmo de aprendizaje, adaptándose a las necesidades y capacidades de los estudiantes, y promoviendo un aprendizaje progresivo y continuo. 
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/5.png', alt='Imagen decorativa')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0.px-5
+        .row.justify-content-center.align-items-center(titulo="")
+          .col-lg-6.order-lg-1.order-2
             h6.mb-4 ¿Cuáles son los énfasis que se dan en el proceso? 
             p Determinar los aspectos prioritarios del proceso educativo, tales como el desarrollo de habilidades críticas, la formación en valores, la innovación, o el enfoque en competencias específicas.
         
-          .col-md-6
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen decorativa')
     
@@ -128,7 +129,7 @@
               li Desarrollo: secuencial y progresivo.
               li Método: transmisionista, con alumnos receptivos e imitativos.
               li Método: estrategias didácticas variadas.
-      .col-lg-4.col-10
+      .col-lg-4.col-10.d-lg-flex.d-none
         figure
           img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen decorativa')
     
