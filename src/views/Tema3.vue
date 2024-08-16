@@ -110,7 +110,7 @@
               li Método: instruccional.
           .row(titulo="Desarrollista")
             .col-md-12.mb-4.mb-md-0
-              p.mb-4 EEl enfoque principal de este modelo es la creación de un ambiente adecuado por parte del docente, permitiendo que los estudiantes aprendan de forma progresiva y secuencial según cada etapa del proceso. El estudiante construye sus propios contenidos, mientras que el maestro facilita el acceso a estas experiencias.
+              p.mb-4 El enfoque principal de este modelo es la creación de un ambiente adecuado por parte del docente, permitiendo que los estudiantes aprendan de forma progresiva y secuencial según cada etapa del proceso. El estudiante construye sus propios contenidos, mientras que el maestro facilita el acceso a estas experiencias.
 
               h6 Características: 
               li Relación maestro-estudiante: facilitador del proceso.
