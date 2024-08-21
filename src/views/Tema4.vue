@@ -28,8 +28,8 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema4/2.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-4.mb-2
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-sm-4.px-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
@@ -40,32 +40,32 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema4/3.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-4.mb-2
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-sm-4.px-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Estudiantes o aprendices
             p.text-white.text-center.mb-0 Son el centro del proceso educativo. Cada estudiante tiene características únicas, incluyendo estilos de aprendizaje, intereses y necesidades individuales. Su participación activa y su interacción con los demás componentes son esenciales para el éxito del proceso educativo.
 
-      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-lg-3.col-md-12.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema4/4.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-4.mb-2
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-sm-4.px-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Docentes
             p.text-white.text-center.mb-0 Actúan como facilitadores del aprendizaje. Su rol es guiar, motivar y apoyar a los estudiantes en su proceso de aprendizaje. Los docentes deben ser capaces de adaptar sus métodos de enseñanza a las necesidades y características de sus estudiantes, utilizando diversas técnicas y estrategias didácticas.
 
-      .col-lg-3.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-lg-3.col-md-12.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema4/5.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-4.mb-2
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+          .tarjetas-up_card.BG05.p-xl-2.p-lg-3.p-sm-4.px-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
