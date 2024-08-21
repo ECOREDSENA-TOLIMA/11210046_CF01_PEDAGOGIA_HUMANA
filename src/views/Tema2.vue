@@ -185,11 +185,11 @@
       h5.mb-0 Aplicaciones del Modelo VAK en el Aula
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-md-12.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-lg-4.col-md-10.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/16.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-sm-4.px-3
+          .tarjetas-up_card.BG05.p-xl-1.p-lg-3.p-sm-2.p-md-2.p-2
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -197,11 +197,11 @@
               h4.mb-0 Visual
             p.text-white.text-center.mb-0 Utilizar pizarras, presentaciones visuales, mapas conceptuales y gráficos para apoyar la enseñanza. Fomentar la toma de notas y la creación de diagramas para organizar la información.
 
-      .col-lg-4.col-md-12.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-lg-4.col-md-10.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/17.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-sm-4.px-3
+          .tarjetas-up_card.BG05.p-xl-1.p-lg-3.p-sm-2.p-md-2.p-2
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -209,11 +209,11 @@
               h4.mb-0 Auditivo
             p.text-white.text-center.mb-0 Incorporar debates, lecturas en voz alta, uso de música y grabaciones de audio en las lecciones. Promover la discusión grupal y el aprendizaje colaborativo.
 
-      .col-lg-4.col-md-12.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-lg-4.col-md-10.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/18.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-6.p-lg-3.p-sm-4.px-3
+          .tarjetas-up_card.BG05.p-xl-1.p-lg-3.p-sm-2.p-md-2.p-2
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
