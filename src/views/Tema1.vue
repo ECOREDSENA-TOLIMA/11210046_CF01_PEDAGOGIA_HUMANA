@@ -74,14 +74,14 @@
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Educación en la Edad Contemporánea
-    p(data-aos="fade-left") Superados los hechos históricos de conquista, colonización, fe y religión, las sociedades de los siglos XIX y XX se vieron permeadas por una serie de revoluciones demográficas, sociales, culturales, económicas y educativas. En este contexto global surgieron numerosos investigadores, maestros y pedagogos que, a través de diferentes medios, disciplinas y métodos, realizaron importantes contribuciones a la historia de la pedagogía.
+    p.mb-5(data-aos="fade-left") Superados los hechos históricos de conquista, colonización, fe y religión, las sociedades de los siglos XIX y XX se vieron permeadas por una serie de revoluciones demográficas, sociales, culturales, económicas y educativas. En este contexto global surgieron numerosos investigadores, maestros y pedagogos que, a través de diferentes medios, disciplinas y métodos, realizaron importantes contribuciones a la historia de la pedagogía.
 
     .row.justify-content-center.mb-5
       .col-lg-3.col-md-7.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/5.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-sm-4.p-4
+          .tarjetas-up_card.BG05.p-xl-12.p-lg-3.p-sm-4.p-4
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -93,7 +93,7 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/6.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-sm-4.p-4
+          .tarjetas-up_card.BG05.p-xl-12.p-lg-3.p-sm-4.p-4
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -105,7 +105,7 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/7.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-sm-4.p-4
+          .tarjetas-up_card.BG05.p-xl-12.p-lg-3.p-sm-4.p-4
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -118,7 +118,7 @@
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/8.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG05.p-xl-4.p-lg-3.p-sm-4.p-4
+          .tarjetas-up_card.BG05.p-xl-12.p-lg-3.p-sm-4.p-4
             .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3

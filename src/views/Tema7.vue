@@ -145,20 +145,20 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema7/17.svg' alt='AvatarTop')
-        h4.text-center Ley 1014 de 2006
-        p.text-center Promueve la cultura del emprendimiento, integrando aspectos de formación empresarial y emprendedora en el currículo educativo.
+        h4.text-center Ley 1064 de 2006
+        p.text-center Regula la educación para el trabajo y el desarrollo humano, estableciendo directrices para la formación técnica y profesional.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema7/18.svg' alt='AvatarTop')
-        h4.text-center Ley 1014 de 2006
-        p.text-center Promueve la cultura del emprendimiento, integrando aspectos de formación empresarial y emprendedora en el currículo educativo.
+        h4.text-center Ley 1295 de 2009
+        p.text-center Regula los servicios educativos destinados a la primera infancia, asegurando la atención integral y de calidad para los menores de seis años.
       .col-md-6.col-lg.tarjeta--tabla1.p-4
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema7/19.svg' alt='AvatarTop')
-        h4.text-center Ley 1014 de 2006
-        p.text-center Promueve la cultura del emprendimiento, integrando aspectos de formación empresarial y emprendedora en el currículo educativo.
+        h4.text-center Ley 1324 de 2009
+        p.text-center Establece los parámetros y mecanismos para la evaluación de la calidad educativa, enfocándose en los resultados del proceso educativo.
 
     separador
     #t_7_5.titulo-segundo.color-acento-contenido
